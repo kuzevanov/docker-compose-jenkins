@@ -3,6 +3,7 @@ version: "3.5"
 services:
 
   jenkins:
+    image: jenkins/jenkins
     restart: unless-stopped
     build:
       context: configs/jenkins
